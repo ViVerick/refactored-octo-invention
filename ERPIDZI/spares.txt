@@ -1,0 +1,16 @@
+def roll20():
+
+      nint = random.randint(1,20)
+      print(nint)
+   d20 = Button(new1, text="D20", command = roll20)
+   d20.pack ()
+   def roll12():
+      nint = random.randint(1,12)
+      print(nint)
+   d20 = Button(new1, text="D12", command = roll12)
+   d20.pack ()
+   def roll6():
+      nint = random.randint(1,6)
+      print(nint)
+   d20 = Button(new1, text=" D6 ", command = roll6)
+   d20.pack ()
